@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    max-width: 100%;
+    margin : auto;
+    display : flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.container {
+    width: 100vw;
+    padding : 60px 4%;
+    position: fixed;
+    top:0;
+    left:0
+}
+
+.container ul {
+    list-style-type: none;
+}
+
+.container ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.container ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.img_main {
+    height: 100vh;
+    background-image: url(/src/images/Fotoprincipal.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
