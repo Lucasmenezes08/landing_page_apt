@@ -69,7 +69,7 @@ header.roll_effect {
 }
 
 .img_main h1 {
-    color:#24ace1;
+    color:#9cb6c0;
     font-weight: 800;
     font-size: 2.2em;
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.7);
@@ -79,7 +79,7 @@ header.roll_effect {
 
 
 .img_main span {
-    color: #9cb6c0;
+    color: #24ace1;
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.7);
     ;
 }
@@ -114,6 +114,8 @@ header.roll_effect {
         transform: scale(1.05);
     }
 }
+
+
 
 
 
