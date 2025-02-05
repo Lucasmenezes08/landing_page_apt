@@ -12,7 +12,7 @@ body {
     font-optical-sizing: auto;
 }
 
-.container {
+header {
     max-width: 1200px;
     margin : auto;
     display : flex;
@@ -20,30 +20,38 @@ body {
     justify-content:space-around;
 }
 
-.container {
+header {
     width: 100%;
     padding : 50px 11%;
     position: fixed;
     top:0;
-    left:0
+    left:0;
+    transition: 1s;
 }
 
-.container ul {
+header ul {
     list-style-type: none;
 }
 
-.container ul li {
+header ul li {
     display: inline-block;
     margin: 0 30px;
 }
 
-.container ul li a {
+header ul li a {
     color: white;
     text-decoration: none;
     font-weight: 800;
     text-shadow: 10px 10px 10px (#0f0f0f);
     font-size: 17px;
 }
+
+header.roll_effect {
+    background-color: #747c84;
+    padding: 15px 11%;
+    opacity: 0;
+}
+
 
 .img_main {
     height: 100vh;
@@ -72,6 +80,7 @@ body {
     ;
 }
 
+
 .btn_contato button {
     background-color:#F27052;
     width: 120px;
@@ -81,6 +90,8 @@ body {
     transition: .2s;
 
 }
+
+
 
 
 
