@@ -10,6 +10,8 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat' serif;
     font-optical-sizing: auto;
+    background: rgb(230, 224, 224) ;
+
 }
 
 header {
@@ -22,7 +24,7 @@ header {
 
 header {
     width: 100%;
-    padding : 50px 11%;
+    padding : 25px 11%;
     position: fixed;
     top:0;
     left:0;
@@ -50,6 +52,7 @@ header.roll_effect {
     background-color: #747c84;
     padding: 15px 11%;
     opacity: 0;
+
 }
 
 
