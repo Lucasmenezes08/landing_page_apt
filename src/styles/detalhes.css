@@ -169,4 +169,381 @@
     color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 428px){
+    .grid-container{
+        grid-template-areas: 
+        'sala sala'
+        'suite suite'
+        'piscina piscina'
+        'cozinha cozinha'
+        'lazer lazer'
+        'quarto2 quarto2';
+        row-gap: 220px;
+
+        grid-template-columns: 2fr  1fr;
+    }
+
+    .sala{
+    grid-area: sala;
+    background-image: url(/src/images/foto\ sala.jpeg);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% ;
+    border: 4px solid #000;
+    border-radius: 15px;
+    height: 200px;
+    width: 320px;
+    margin-left: 30px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .suite {
+        grid-area: suite;
+        background-image: url(/src/images/Quarto\ secretaria.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .piscina {
+        grid-area: piscina;
+        background-image: url(/src/images/Fotoprincipal.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .lazer {
+        grid-area: lazer;
+        background-image: url(/src/images/Foto\ churrasqueira.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .cozinha {
+        grid-area: cozinha;
+        background-image: url(/src/images/Foto\ cozinha.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .quarto2 {
+        grid-area: quarto2;
+        background-image: url(/src/images/foto\ quarto\ secundario.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+}
+
+
+@media screen and (min-width: 750px){
+    .grid-container{
+        grid-template-areas: 
+        'sala suite'
+        'piscina lazer'
+        'cozinha quarto2';
+        row-gap: 220px;
+
+        grid-template-columns: 2fr  1fr;
+    }
+
+    .sala{
+    grid-area: sala;
+    background-image: url(/src/images/foto\ sala.jpeg);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% ;
+    border: 4px solid #000;
+    border-radius: 15px;
+    height: 200px;
+    width: 320px;
+    margin-left: 30px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .suite {
+        grid-area: suite;
+        background-image: url(/src/images/Quarto\ secretaria.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 20px;
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .piscina {
+        grid-area: piscina;
+        background-image: url(/src/images/Fotoprincipal.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .lazer {
+        grid-area: lazer;
+        background-image: url(/src/images/Foto\ churrasqueira.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .cozinha {
+        grid-area: cozinha;
+        background-image: url(/src/images/Foto\ cozinha.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .quarto2 {
+        grid-area: quarto2;
+        background-image: url(/src/images/foto\ quarto\ secundario.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 200px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+}
+
+
+@media screen and (min-width: 900px){
+    .grid-container{
+        grid-template-areas: 
+        'sala suite'
+        'piscina lazer'
+        'cozinha quarto2';
+        row-gap: 220px;
+        column-gap: -100px;
+
+        grid-template-columns: 2fr  1fr;
+    }
+
+    .sala{
+    grid-area: sala;
+    background-image: url(/src/images/foto\ sala.jpeg);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% ;
+    border: 4px solid #000;
+    border-radius: 15px;
+    height: 300px;
+    width: 450px;
+    margin-left: 30px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .suite {
+        grid-area: suite;
+        background-image: url(/src/images/Quarto\ secretaria.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 300px;
+        width: 450px;
+        margin-left: 20px;
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .piscina {
+        grid-area: piscina;
+        background-image: url(/src/images/Fotoprincipal.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 300px;
+        width: 450px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .lazer {
+        grid-area: lazer;
+        background-image: url(/src/images/Foto\ churrasqueira.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 300px;
+        width: 450px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .cozinha {
+        grid-area: cozinha;
+        background-image: url(/src/images/Foto\ cozinha.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 300px;
+        width: 450px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .quarto2 {
+        grid-area: quarto2;
+        background-image: url(/src/images/foto\ quarto\ secundario.jpeg);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% ;
+        border: 4px solid #000;
+        border-radius: 15px;
+        height: 300px;
+        width: 450px;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+}
+
+
+
+
+    
+
 
